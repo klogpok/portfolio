@@ -1,11 +1,4 @@
-# Coding Academy PSD to HTML
+# Coding Academy Portfolio By Oleg Kleiman
 
 
 
-```
-yarn install
-```
-
-```
-npm start
-```
