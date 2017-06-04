@@ -1,4 +1,4 @@
-# Coding Academy Portfolio By Oleg Kleiman
+# Coding Academy Portfolio by Oleg Kleiman
 
 
 
