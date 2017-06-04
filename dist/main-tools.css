@@ -1,0 +1,46 @@
+/*----------  Flatform Font  ----------*/
+@font-face {
+  font-family: 'Flatform';
+  src: url("../assets/fonts/flatform/Flatform_Light.ttf"); }
+
+/*----------  Satellite Font  ----------*/
+@font-face {
+  font-family: 'Ubunto';
+  src: url("../assets/fonts/satellite/satellite-regular.ttf");
+  font-weight: 400; }
+
+.header {
+  font-size: 1.875rem; }
+
+:root {
+  /* Layout */
+  --container-width: 100%;
+  --inner-container-width: 80%;
+  /* Fonts */
+  --primary-font: Open Sans;
+  --secondary-font: Ubuntu;
+  /* Colors */
+  --main-color: #4d4d4d;
+  --sections-bg: #f0f0f0; }
+
+.main-tools {
+  width: var(--inner-container-width);
+  margin: 0 auto;
+  border-bottom: 1px solid #e7e7e7; }
+  .main-tools .main-tools-item {
+    height: 420px;
+    width: 31%;
+    text-align: center; }
+    .main-tools .main-tools-item h2 {
+      font-size: 22px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 30px 0; }
+    .main-tools .main-tools-item p {
+      padding: 0;
+      margin: 0;
+      color: #727272;
+      font-family: var(--primary-font), sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.1em; }

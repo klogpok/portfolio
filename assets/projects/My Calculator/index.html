@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css"> </head>
+
+<body>
+
+<div class="calc-frame">
+    <div class="sub-panel"></div>
+    <div class="panel">
+        0
+    </div>
+    <div class="buttons">
+        <!--<button>D</button>-->
+        <!--<button>D</button>-->
+        <!--<button>D</button>-->
+        <!--<button>D</button>-->
+        <!--<button>D</button>-->
+        <button onclick="removeDigit()">&larr;</button>
+        <button>CE</button>
+        <button onclick="clearAll()">C</button>
+        <button onclick="calcImmRes('plusmn')">&plusmn;</button>
+        <button onclick="calcImmRes('sqrt')">&radic;</button>
+        <button onclick="takeDigit('7')">7</button>
+        <button onclick="takeDigit('8')">8</button>
+        <button onclick="takeDigit('9')">9</button>
+        <button onclick="takeOp('/')">/</button>
+        <button onclick="takeOp('%')">%</button>
+        <button onclick="takeDigit('4')">4</button>
+        <button onclick="takeDigit('5')">5</button>
+        <button onclick="takeDigit('6')">6</button>
+        <button onclick="takeOp('*')">*</button>
+        <button onclick="calcImmRes('1/x')">1/x</button>
+        <button onclick="takeDigit('1')">1</button>
+        <button onclick="takeDigit('2')">2</button>
+        <button onclick="takeDigit('3')">3</button>
+        <button onclick="takeOp('-')">-</button>
+        <button onclick="calcImmRes('x^2')">x<sup>2</sup></button>
+        <button click="takeDigit('0')">0</button>
+        <button onclick="takeDigit('.')">.</button>
+        <button onclick="takeOp('+')">+</button>
+        <button class="bigButtonHor" onclick="calcResult()">=</button>
+        <!--<button>D</button>-->
+    </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+
+</html>

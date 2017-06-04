@@ -1,0 +1,35 @@
+@import "functions";
+@import "typography";
+@import "vars";
+
+
+.main-tools {
+
+  width: var(--inner-container-width);
+  margin: 0 auto;
+  border-bottom: 1px solid #e7e7e7;
+
+  .main-tools-item {
+
+    height: 420px;
+    width: 31%;
+    text-align: center;
+
+    h2 {
+      font-size: 22px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 30px 0;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+      color: #727272;
+      font-family: var(--primary-font), sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+    }
+  }
+}

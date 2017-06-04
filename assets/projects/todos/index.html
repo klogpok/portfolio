@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Academy</title>
+    <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+<div class="paper">
+    <header>
+        <div class="inner-paper">
+            <i class="fa fa-cog"></i>
+            <h1>Todos</h1>
+        </div>
+    </header>
+    <div class="content inner-paper">
+        <ul class="todos clean-list"></ul>
+    </div>
+    <footer class="flex justify-center space-around">
+        <div>
+            <i class="fa fa-plus" onclick="addTodo()"></i>
+            <i class="fa fa-trash-o" onclick="archiveDone()"></i>
+        </div>
+
+        <div class="status flex" onclick="setFilter(event)">
+            <label><input class="all" checked type="radio" name="filter-shown" value="all"> All </label> |
+            <label><input class="active" type="radio" name="filter-shown" value="active"> Active </label> |
+            <label><input class="history" type="radio" name="filter-shown" value="archived"> History </label>
+        </div>
+    </footer>
+</div>
+
+a*3$
+
+<script src="js/utils.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

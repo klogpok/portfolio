@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E7E8EC;
+    overflow-y: hidden;
+}
+
+header {
+    background: url("../img/race.png") no-repeat center 5%;
+    height: 215px;
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+
+.road {
+    position: relative;
+    background-color: lightgrey;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.road img {
+    width: 80px;
+    position: absolute;
+    top: -50px;
+    right: 72px;
+}
+
+.road  hr {
+    border: 0 none;
+    border-top: 10px dashed white;
+    background: none;
+    height:0;
+    margin: 30px 0;
+}
+
+.car {
+    width: 100px;
+    height: 50px;
+    transition: all 1s linear;
+    transform: translate(0, 0);
+}
+
+.car1 {
+    background: url("../img/pink100.png") no-repeat;
+}
+
+.car2 {
+    background: url("../img/red100.png") no-repeat;
+}
+
+.popup {
+    padding: 20px;
+    background-color: #f4f4f4;
+    position: absolute;
+    top: -55px;
+    right: 40%;
+    display: none;
+    text-align: center;
+}
+
+.finishLine {
+    width: 5px;
+    height: 210px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;
+    right: 110px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer button {
+    padding: 15px;
+}

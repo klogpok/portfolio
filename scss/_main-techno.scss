@@ -1,0 +1,34 @@
+@import "functions";
+@import "typography";
+@import "vars";
+
+
+.main-techno {
+
+  width: var(--inner-container-width);
+  margin:  0 auto;
+  padding: em(90px) em(60px) em(60px) em(60px);
+  border-bottom: 1px solid #e7e7e7;
+  text-align: center;
+
+  h2 {
+    margin: 0 0 em(15px) 0;
+    color: #4d4d4d;
+    font-family: var(--primary-font), sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+
+  .techno {
+
+    margin:  0 auto;
+
+    img {
+      width: em(100px);
+      margin: 20px 25px;
+    }
+  }
+
+}

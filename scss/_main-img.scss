@@ -1,0 +1,19 @@
+@import "functions";
+@import "typography";
+@import "vars";
+
+
+.main-img {
+
+    min-height: 100vh;
+    background: url("../assets/img/web-development-pieces.jpg") no-repeat center / cover;
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+@import "functions";
+@import "typography";
+@import "vars";
+
+
+.logos {
+  height: em(270px);
+  width: 100%;
+  text-align: center;
+
+  li {
+    text-align: center;
+    margin: em(30px);
+
+    a {
+      width: 70px;
+      height: 70px;
+      line-height: em(70px);
+      outline: 1px solid #4d4d4d;
+      background-color: rgba(221, 221, 221, 0);
+
+      &:hover{
+        background-color: #55acee;
+        color: #fff;
+        outline: none;
+      }
+    }
+  }
+}

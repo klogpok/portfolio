@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	width: 50px;
+	height: 40px;
+	display: inline-block;
+	margin: 0px 6px 8px 0px;
+    font-size: 1em;
+	float: left;
+}
+
+button:nth-child(5n) {
+	margin-right: 0;
+}
+
+.calc-frame {
+	margin: 40px auto;
+	padding: 8px;
+	width: 274px;
+	height: 324px;
+	background-color: gainsboro;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+	text-align: center;
+}
+
+.panel {
+	height: 45px;
+	margin-bottom: 8px;
+    padding: 5px;
+	background-color: lightgoldenrodyellow;
+	border-radius: 0 0 8px 8px;
+	font-size: 2.2em;
+	line-height: 50px;
+	text-align: right;
+}
+
+.sub-panel {
+    height: 20px;
+    padding: 5px;
+	border-radius: 8px 8px 0 0;
+    font-size: 1.1em;
+    line-height: 20px;
+    background-color: lightgoldenrodyellow;
+    text-align: right;
+}
+
+.bigButtonHor {
+    width: 106px;
+    height: 40px;
+    margin-right: 0;
+}

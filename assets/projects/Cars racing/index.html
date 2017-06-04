@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car racing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="init()" onKeyUp="keyWasPressed(event)">
+    <div class="container">
+    <header>
+    </header>
+   
+    <section class="road">
+        <div class="popup">
+            <h1></h1>
+            <button onclick="closePopup();">Close</button>
+        </div>
+        <img src="img/checkered-flag-car.png" alt="">
+        <div class="finishLine"></div>
+        <div class="car car1" onclick="moveCar(this)"></div>
+        <hr>
+        <div class="car car2" onclick="moveCar(this)"></div>
+    </section>
+    </div>
+    <footer>
+        <button onclick="startRace();">Start race</button>
+    </footer>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+ 
+html {
+  margin: 0 auto;
+  color: var(--main-color);
+  font-family: var(--primary-font);
+  font-size: 16px;
+}
+
+.container {
+  min-width: 420px;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+fieldset {
+  padding: 0;
+  margin: 0;
+}
+
+#js-to-home {
+  display: none;
+  font-size: 50px;
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+
+}

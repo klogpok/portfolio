@@ -1,0 +1,20 @@
+
+/*----------  Flatform Font  ----------*/
+
+@font-face {
+  font-family: 'Flatform';
+  src: url('../assets/fonts/flatform/Flatform_Light.ttf');
+}
+
+
+/*----------  Satellite Font  ----------*/
+
+@font-face {
+  font-family: 'Ubunto';
+  src: url('../assets/fonts/satellite/satellite-regular.ttf');
+  font-weight: 400;
+}
+
+.header {
+  font-size: rem(30px);
+}
